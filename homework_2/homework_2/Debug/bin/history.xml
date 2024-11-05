@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=homework_2.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\homework_2 -TC:\CooCox\CoIDE\configuration\ProgramData\homework_2/arm-gcc-link.ld -g">
+      <target file="homework_2.elf" lastModified="192f6b3500a">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="192f6b34905"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="192f6b34955"/>
+         <source file="..\obj\main.o" lastModified="192f6b349ee"/>
+         <source file="..\obj\timers.o" lastModified="192f6b34a5b"/>
+         <source file="..\obj\tasks.o" lastModified="192f6b34b2c"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="192f6b34b6f"/>
+         <source file="..\obj\list.o" lastModified="192f6b34bbe"/>
+         <source file="..\obj\port.o" lastModified="192f6b34c0f"/>
+         <source file="..\obj\queue.o" lastModified="192f6b34c9a"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="192f6b34cbc"/>
+         <source file="..\obj\stream_buffer.o" lastModified="192f6b34d31"/>
+         <source file="..\obj\croutine.o" lastModified="192f6b34d70"/>
+         <source file="..\obj\event_groups.o" lastModified="192f6b34dcd"/>
+         <source file="..\obj\heap_2.o" lastModified="192f6b34e23"/>
+      </target>
+   </processor>
+</history>
