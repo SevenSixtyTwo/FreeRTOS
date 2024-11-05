@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 13.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -IE:\home\stm32 -IE:\home\stm32\homework_1.2\cmsis_lib -IE:\home\stm32\homework_1.2 -IE:\home\stm32\homework_1.2\cmsis -IE:\home\stm32\homework_1.2\cmsis_lib\include -IE:\home\stm32\homework_1.2\cmsis_boot">
+      <target file="startup_stm32f30x.o" lastModified="192f34aeb0f">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="192ee9a762e"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="192f34aea6c">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="192ee9a7607"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="192f34aeaef">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="192ee9a7654"/>
+      </target>
+      <target file="main.o" lastModified="192f34aeaae">
+         <source file="..\..\..\main.c" lastModified="192f156cb2b"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="192f34aea1f">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="192ee9a7622"/>
+      </target>
+   </processor>
+</history>
