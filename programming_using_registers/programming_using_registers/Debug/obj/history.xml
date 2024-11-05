@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 13.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -D__FPU_USED -I..\..\..\workspace\programming_using_registers\cmsis_boot -I..\..\..\workspace\programming_using_registers\cmsis_lib\include -I..\..\..\workspace\programming_using_registers\cmsis -I..\..\..\workspace -I..\..\..\workspace\programming_using_registers\cmsis_lib -I..\..\..\workspace\programming_using_registers">
+      <target file="startup_stm32f30x.o" lastModified="192e8c8e149">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="192b9c33a23"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="192e8c8e04f">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="192b9c8781f"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="192e8c8e0e5">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="192b9c33a41"/>
+      </target>
+      <target file="syscalls.o" lastModified="192e8c8e12b">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="192b9c32353"/>
+      </target>
+      <target file="main.o" lastModified="192e8c8e09e">
+         <source file="..\..\..\main.c" lastModified="192e8c8d360"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="192e8c8e009">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="192b9c8783c"/>
+      </target>
+   </processor>
+</history>

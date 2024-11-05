@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=programming_using_registers.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\programming_using_registers -TC:\CooCox\CoIDE\configuration\ProgramData\programming_using_registers/arm-gcc-link.ld -g -L..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\5.3 2016q1\arm-none-eabi\lib\armv7e-m\fpu -lm">
+      <target file="programming_using_registers.elf" lastModified="192e8c8e347">
+         <source file="..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\5.3 2016q1\arm-none-eabi\lib\armv7e-m\fpu\libm.a" lastModified="153c9358fe0"/>
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="192e8c8e009"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="192e8c8e04f"/>
+         <source file="..\obj\main.o" lastModified="192e8c8e09e"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="192e8c8e0e5"/>
+         <source file="..\obj\syscalls.o" lastModified="192e8c8e12b"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="192e8c8e149"/>
+      </target>
+   </processor>
+</history>
