@@ -5,8 +5,13 @@
 #include "stm32f30x_rcc.h"
 #include "stm32f30x_syscfg.h"
 
-void _delay(uint16_t ms){
+volatile uint8_t f = 0b0;
 
+void _delay(uint32_t f){
+	uint32_t i = 0;
+	f *= 7.2;
+
+	for(i = 0; i <= f; ++i){};
 }
 
 void gpio(){
@@ -53,7 +58,10 @@ void ext(){
 }
 
 void EXTI0_IRQHandler(){
-	GPIOE->ODR ^= 1<<9;
+	_delay(50000);
+	if(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_0)){
+		f ^= 0b1;
+	}
 	EXTI_ClearFlag(EXTI_Line0);
 }
 
@@ -63,5 +71,11 @@ int main(void)
 	ext();
     while(1)
     {
+    	if(f){
+    		GPIOE->ODR ^= 1<<9;
+    		_delay(100000);
+    		GPIOE->ODR ^= 1<<9;
+    		_delay(100000);
+    	}
     }
 }
