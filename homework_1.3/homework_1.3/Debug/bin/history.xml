@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=homework_1.3.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\homework_1.3 -TC:\CooCox\CoIDE\configuration\ProgramData\homework_1.3/arm-gcc-link.ld -g">
+      <target file="homework_1.3.elf" lastModified="192f15d5d91">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="192f15d2fc5"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="192f15d3016"/>
+         <source file="..\obj\main.o" lastModified="192f15d305b"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="192f15d30a6"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="192f15d30cc"/>
+      </target>
+   </processor>
+</history>
