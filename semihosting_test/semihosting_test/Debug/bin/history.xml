@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=semihosting_test.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\semihosting_test -TC:\CooCox\CoIDE\configuration\ProgramData\semihosting_test/arm-gcc-link.ld -g">
+      <target file="semihosting_test.elf" lastModified="192e8f1fd1f">
+         <source file="..\obj\semihosting.o" lastModified="192e8ee9ed2"/>
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="192e8ee9f36"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="192e8ee9f85"/>
+         <source file="..\obj\main.o" lastModified="192e8ee9fc5"/>
+         <source file="..\obj\printf.o" lastModified="192e8eea01a"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="192e8eea05d"/>
+         <source file="..\obj\sh_cmd.o" lastModified="192e8eea06b"/>
+         <source file="..\obj\syscalls.o" lastModified="192e8eea0ae"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="192e8eea0cf"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IE:\home\stm32 /IE:\home\stm32\semihosting_test\cmsis /IE:\home\stm32\semihosting_test\cmsis_lib\include /IE:\home\stm32\semihosting_test\semihosting /IE:\home\stm32\semihosting_test\cmsis_boot /IE:\home\stm32\semihosting_test\cmsis_lib /IE:\home\stm32\semihosting_test">
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h" lastModified="192e8cb7151">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="192e8cb7583">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="192e8cb798a">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f30x.h" lastModified="192e8cb7567">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h" lastModified="192e8cb712a">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="192e8d23700">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="192e8d2278c">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="192e8cb7189">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="192e8d249bf">
+      </source>
+      <source file="..\..\..\main.c" lastModified="192e8ee96c1">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\semihosting\semihosting.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="192e8cb7980">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="192e8cb7165">
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="192e8d249c0">
+      </source>
+      <source file="..\..\..\semihosting\semihosting.c" lastModified="192e8d2518f">
+         <include file="..\..\..\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="192e8cb713d">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="192e8cb715c">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="192e8cb7972">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="192e8cb717f">
+      </source>
+   </includePath>
+</dependencies>

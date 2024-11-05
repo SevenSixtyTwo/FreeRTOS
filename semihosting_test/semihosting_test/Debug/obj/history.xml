@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 13.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -IE:\home\stm32 -IE:\home\stm32\semihosting_test\cmsis -IE:\home\stm32\semihosting_test\cmsis_lib\include -IE:\home\stm32\semihosting_test\semihosting -IE:\home\stm32\semihosting_test\cmsis_boot -IE:\home\stm32\semihosting_test\cmsis_lib -IE:\home\stm32\semihosting_test">
+      <target file="syscalls.o" lastModified="192e8eea0ae">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="192e8d217ec"/>
+      </target>
+      <target file="startup_stm32f30x.o" lastModified="192e8eea0cf">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="192e8cb7165"/>
+      </target>
+      <target file="printf.o" lastModified="192e8eea01a">
+         <source file="..\..\..\stdio\printf.c" lastModified="192e8d22f30"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="192e8ee9f36">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="192e8cb715c"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="192e8ee9f85">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="192e8cb713d"/>
+      </target>
+      <target file="main.o" lastModified="192e8ee9fc5">
+         <source file="..\..\..\main.c" lastModified="192e8ee96c1"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="192e8eea06b">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="192e8d249c0"/>
+      </target>
+      <target file="semihosting.o" lastModified="192e8ee9ed2">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="192e8d249bf"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="192e8eea05d">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="192e8cb7189"/>
+      </target>
+   </processor>
+</history>
